@@ -209,7 +209,7 @@ body{margin: 0;padding: 0;font-family: Verdana, Geneva, Tahoma, sans-serif;}
 .clearfix::after{content: " ";display: block;clear:both;}
 
 
-/* -------- media queries -------- */
+/* ---------------------------------- media queries ---------------------------------------------- */
 
 @media only screen and (min-width: 800px){
     #top_header_menubtn{display: none;}
@@ -296,9 +296,13 @@ body{margin: 0;padding: 0;font-family: Verdana, Geneva, Tahoma, sans-serif;}
     }
 }
 
+
+
 @media only screen and (min-width: 800px) and (max-width: 1024px) {
     #top_header h1, #top_header p{text-align: right;color: #dcd500;padding-right:10px;}
     #top_header h1{font-size: 1.5em;}
     #top_header p{font-size: .7em;}
     #searchBtn, #searchInput{padding: 12px;font-size: .9em;}
+
+   
 }
